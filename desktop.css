@@ -1,0 +1,75 @@
+/* Stylesheet for desktop screens */
+html {
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* The header */
+header {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 5%;
+}
+
+header h1 {
+    margin-left: 15%;
+    font-family: verdana, sans-serif;
+    font-size: 2.3em;
+}
+
+header p {
+    margin-left: 15%;
+    font-size: 1.2em;
+}
+
+/* the footer */
+
+footer {
+    margin-top: 40%;
+    width: 100%;
+    font-size: 0.8em;
+}
+
+/* the question space */
+#questions {
+    margin: 30px;
+}
+
+#questions h2 {
+    font-size: 2em;
+}
+
+#question_line {
+    font-size: 1.6em;
+}
+
+#questions input {
+    width: 120px;
+    font-size: 1.4em;
+    margin-left: 20%;
+}
+
+#answer_yes {
+    background: lightgreen;
+}
+
+#answer_no {
+    background: pink;
+}
+
+#question_explanation {
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+/* the rubric space */
+#rubric {
+    display: none;
+}

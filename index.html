@@ -1,0 +1,40 @@
+<!-- A web tool to assess class tasks using the 21 Century Learning Rubrics. More information on the rubics can be found at http://www.itlresearch.com/itl-leap21
+Website developed by Alan Burt (a-burt.github.io)-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>21 Century Learning Rubric Tool</title>
+        <link rel="stylesheet" href="desktop.css">
+    </head>
+    <body>
+        <header>
+            <!-- Header has the title and a one line description -->
+            <h1>21 Century Learning Rubric Tool</h1>
+            <p>Use this tool to determine how well your class activity teachers 21st Century skills.</p>
+        </header>
+        
+        <div id="questions">
+            <!-- This section displays the questions one by one to determine the ranking in each section fo the rubric -->
+            <h2 id="question_heading">Thinking about ...</h2>
+            <p id="question_line">This is a question</p>
+            <input type="button" value="Yes" id="answer_yes">
+            <input type="button" value="No" id="answer_no">
+            <p id="question_explanation">This is further information about the question.</p>
+        </div>
+        
+        <div id="rubric">
+            <!-- This section shows the completed rubric for the activity -->
+            <h2>Rubric</h2>
+        </div>
+        
+        <footer>
+            <!-- Footer contains acknowledgement and link to ITL Research and a link to the issue tracker on Github -->
+            <p>The 21st Century Learning Rubrics were developed by ITL Research and released under the <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 Unported License</a>. For more information, and full documentation about the rubrics, go to <a href="http://www.itlresearch.com/itl-leap21" target="_blank">http://www.itlresearch.com/itl-leap21</a></p>
+            
+            <p>This tools was developed by Alan Burt and is released under <a href="https://github.com/a-burt/21C-Learning-Rubric-Tool/blob/master/LICENSE">The MIT License</a>. View the source code on <a href="https://github.com/a-burt/21C-Learning-Rubric-Tool">Github</a>. If you discover any errors with this tool or have suggestions for improvement, feel free to make an "issue" at <a href="https://github.com/a-burt/21C-Learning-Rubric-Tool/issues" target="_blank">https://github.com/a-burt/21C-Learning-Rubric-Tool/issues</a></p>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
