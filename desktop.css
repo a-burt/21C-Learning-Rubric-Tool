@@ -88,6 +88,10 @@ div {
     font-size: 2em;
 }
 
+#question_heading {
+    font-style: italic;
+}
+
 #question_line {
     font-size: 1.6em;
 }
@@ -108,11 +112,13 @@ div {
 
 #questions h3 {
     margin-top: 50px;
+    color: #4C4C4C;
 }
 
 #question_explanation {
     margin-top: 20px;
     font-size: 1.2em;
+    color: #4C4C4C;
 }
 
 

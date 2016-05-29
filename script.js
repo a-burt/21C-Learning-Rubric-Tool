@@ -118,7 +118,7 @@ function nextDomain() {
     currentDomain += 1;
     // display the next domain if it is available
     if (currentDomain < DOMAINS.length) {
-        questionHeading.innerHTML = "Thinking about...<br><em>" + DOMAINS[currentDomain] + "</em>";
+        questionHeading.innerHTML = DOMAINS[currentDomain];
         currentQuestion = -1;
         nextQuestion();
     } else {
@@ -156,7 +156,7 @@ function setupQuestions() {
     questionExplanation = document.getElementById("question_explanation");
     // set and display the current domain
     currentDomain = 0;
-    questionHeading.innerHTML = "<em>Thinking about</em> " + DOMAINS[currentDomain];
+    questionHeading.innerHTML = DOMAINS[currentDomain];
     // set the flag
     flagTerminateDomain = false;
     // display the first question
