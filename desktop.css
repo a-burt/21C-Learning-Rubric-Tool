@@ -2,14 +2,16 @@
 
 html {
     margin-top: 0;
-    margin-left: 5%;
-    margin-right: 5%;
     padding: 0;
+    background: #efefef;
+    background-image: url(background.png);
 }
 
 body {
-    margin: 0;
     padding: 0;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
@@ -17,18 +19,19 @@ body {
 
 header {
     width: 100%;
-    padding: 0;
+    padding: 10px;
     margin-bottom: 5%;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1), 0px 5px 10px rgba(0, 0, 0, 0.05), 0px 10px 10px rgba(0, 0, 0, 0.05), 0px 15px 10px rgba(0, 0, 0, 0.05);
 }
 
 header h1 {
-    margin-left: 15%;
+    text-align: center;
     font-family: verdana, sans-serif;
     font-size: 2.3em;
 }
 
 header p {
-    margin-left: 15%;
     font-size: 1.2em;
 }
 
@@ -36,9 +39,22 @@ header p {
 /* the footer */
 
 footer {
-    margin-top: 22%;
+    margin-top: 5%;
     width: 100%;
+    padding: 10px;
     font-size: 0.9em;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1), 0px 5px 10px rgba(0, 0, 0, 0.05), 0px 10px 10px rgba(0, 0, 0, 0.05), 0px 15px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+/* for all div */
+
+div {
+    padding: 10px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1), 0px 5px 10px rgba(0, 0, 0, 0.05), 0px 10px 10px rgba(0, 0, 0, 0.05), 0px 15px 10px rgba(0, 0, 0, 0.05);
 }
 
 
@@ -46,21 +62,25 @@ footer {
 
 #introduction {
     display: block;
-    margin: 30px;
+}
+
+#introduction p {
+    font-size: 1.2em;
 }
 
 #introduction input {
     width: 200px;
     font-size: 1.4em;
     margin-left: 20%;
-    background: lightblue;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background: #97E7E3;
 }
 
 
 /* the question space */
 
 #questions {
-    margin: 30px;
     display: none;
 }
 
@@ -86,8 +106,12 @@ footer {
     background: pink;
 }
 
+#questions h3 {
+    margin-top: 50px;
+}
+
 #question_explanation {
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 1.2em;
 }
 
@@ -96,7 +120,6 @@ footer {
 
 #rubric {
     display: none;
-    margin: 30px;
 }
 
 
@@ -107,16 +130,16 @@ table {
     margin: 25px auto;
     border-collapse: collapse;
     border: 1px solid #eee;
-    border-bottom: 2px solid #00cccc;
+    border-bottom: 2px solid #A39D9D;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
 }
 
 table tr:hover {
-    background: #f4f4f4;
+    background: rgba(127, 127, 127, 0.2);
 }
 
 table tr:hover td {
-    color: #555;
+    color: #444;
 }
 
 table th,
@@ -127,8 +150,12 @@ table td {
     border-collapse: collapse;
 }
 
+td.rank {
+    text-align: center;
+}
+
 table th {
-    background: #00cccc;
+    background: #A39D9D;
     color: #fff;
     text-transform: uppercase;
     font-size: 12px;
